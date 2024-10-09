@@ -1,5 +1,110 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+header {
+    background-color: #f0f5ff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #0062ff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.plan {
+    background-color: #f7f9fc;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.plan h3 {
+    color: #0062ff;
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.plan .cta-button {
+    margin-top: 20px;
+}
+
+.partner {
+    padding: 50px;
+    background-color: #f0f5ff;
+    text-align: center;
+}
+
+.partner img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.features {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.features .feature {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #0062ff;
+    text-decoration: none;
 }
